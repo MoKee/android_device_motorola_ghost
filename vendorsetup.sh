@@ -1,3 +1,2 @@
-add_lunch_combo full_xt1053-userdebug
 add_lunch_combo cm_xt1053-userdebug
 
