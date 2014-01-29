@@ -16,21 +16,21 @@
 
 #
 # This file is the build configuration for a full Android
-# build for xt925 hardware. This cleanly combines a set of
+# build for ghost hardware. This cleanly combines a set of
 # device-specific aspects (drivers) with a device-agnostic
 # product configuration (apps). Except for a few implementation
 # details, it only fundamentally contains two inherit-product
-# lines, full and xt925, hence its name.
+# lines, full and ghost, hence its name.
 #
 
 # Inherit from those products. Most specific first.
 $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
-# Inherit from xt1053 device
-$(call inherit-product, device/motorola/xt1053/device_xt1053.mk)
+# Inherit from ghost device
+$(call inherit-product, device/motorola/ghost/device_ghost.mk)
 
 ## Device identifier. This must come after all inclusions
-PRODUCT_DEVICE := xt1053
-PRODUCT_NAME := full_xt1053
+PRODUCT_DEVICE := ghost
+PRODUCT_NAME := full_ghost
 PRODUCT_BRAND := motorola
-PRODUCT_MODEL := XT1053
+PRODUCT_MODEL := Moto X
 PRODUCT_MANUFACTURER := motorola

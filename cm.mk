@@ -10,12 +10,10 @@ TARGET_SCREEN_HEIGHT := 1280
 
 # Release name
 PRODUCT_RELEASE_NAME := MOTO X
-PRODUCT_NAME := cm_xt1053
+PRODUCT_NAME := cm_ghost
 
-$(call inherit-product, device/motorola/xt1053/full_xt1053.mk)
+$(call inherit-product, device/motorola/ghost/full_ghost.mk)
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
     PRODUCT_BRAND=motorola \
-    PRODUCT_NAME=XT1053 \
-    BUILD_PRODUCT=ghost_retail \
-    BUILD_FINGERPRINT=motorola/ghost_retail/ghost:4.2.2/13.9.0Q2.X-116-X-17-57/6:user/release-keys
+    PRODUCT_NAME=ghost

@@ -24,9 +24,13 @@
 -include device/motorola/msm8960dt-common/BoardConfigCommon.mk
 
 # inherit from the proprietary version
--include vendor/motorola/xt1053/BoardConfigVendor.mk
+-include vendor/motorola/ghost/BoardConfigVendor.mk
 
-LOCAL_PATH := device/motorola/xt1053
+LOCAL_PATH := device/motorola/ghost
+
+# Vendor Init
+TARGET_INIT_VENDOR_LIB := libinit_msm
+TARGET_LIBINIT_DEFINES_FILE := device/motorola/ghost/init/init_ghost.c
 
 # NFC
 BOARD_HAVE_NFC := true

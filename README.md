@@ -1,4 +1,4 @@
-Device configuration for the Moto X TMobile (XT1053) (ghost_retail)
+Unified Device configuration for the Moto X (ghost)
 ===============================
 
 Copyright 2013 - The CyanogenMod Project

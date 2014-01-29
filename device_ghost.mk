@@ -20,9 +20,9 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/languages_full.mk)
 
 $(call inherit-product, device/motorola/msm8960dt-common/msm8960dt.mk)
 
-LOCAL_PATH := device/motorola/xt1053
+LOCAL_PATH := device/motorola/ghost
 
-# xt1053 specific overlay
+# ghost specific overlay
 DEVICE_PACKAGE_OVERLAYS += $(LOCAL_PATH)/overlay
 
 PRODUCT_LOCALES := en_US
@@ -30,11 +30,12 @@ PRODUCT_LOCALES += xhdpi
 PRODUCT_AAPT_CONFIG := normal hdpi xhdpi
 PRODUCT_AAPT_PREF_CONFIG := xhdpi
 
-#telephony
+
+# LTE, CDMA, GSM/WCDMA
 PRODUCT_PROPERTY_OVERRIDES += \
-	telephony.lteOnGsmDevice=1 \
-	telephony.lteOnCdmaDevice=0 \
-	ro.telephony.default_network=9 \
+    ro.telephony.default_network=10 \
+    telephony.lteOnCdmaDevice=1 \
+    persist.radio.mode_pref_nv10=1 \
 	persist.radio.no_wait_for_card=1 \
 	persist.radio.dfr_mode_set=1 \
 	persist.rmnet.mux=disabled \
@@ -43,4 +44,4 @@ PRODUCT_PROPERTY_OVERRIDES += \
 $(call inherit-product, device/motorola/msm8960dt-common/keylayout/keylayout.mk)
 $(call inherit-product, device/motorola/qcom-common/keylayout/keylayout.mk)
 $(call inherit-product, device/motorola/qcom-common/modules/nfc/nfc.mk)
-$(call inherit-product, vendor/motorola/xt1053/xt1053-vendor.mk)
+$(call inherit-product, vendor/motorola/ghost/ghost-vendor.mk)

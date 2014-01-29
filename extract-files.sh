@@ -1,6 +1,6 @@
 #!/bin/bash
 
 export VENDOR=motorola
-export DEVICE=xt1053
+export DEVICE=ghost
 
 ../msm8960dt-common/extract-files.sh $@
