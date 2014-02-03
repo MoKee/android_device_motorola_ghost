@@ -55,7 +55,7 @@ void init_msm_properties(unsigned long msm_id, unsigned long msm_ver, char *boar
     property_get("ro.boot.radio", radio);
     if (ISMATCH(radio, "0x1")) {
         /* xt1058 */
-        property_set("ro.product.device", "ghost_att");
+        property_set("ro.product.device", "ghost_retail");
         property_set("ro.product.model", "Moto X");
         property_set("ro.build.description", "ghost_retail-user 4.4 13.11.1Q2.X-69-3 51 release-keys");
         property_set("ro.build.fingerprint", "motorola/ghost_retail/ghost:4.4/13.11.1Q2.X-69-3/51:user/release-keys");
