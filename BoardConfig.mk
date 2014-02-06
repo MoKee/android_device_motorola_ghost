@@ -32,9 +32,6 @@ LOCAL_PATH := device/motorola/ghost
 TARGET_INIT_VENDOR_LIB := libinit_msm
 TARGET_LIBINIT_DEFINES_FILE := device/motorola/ghost/init/init_ghost.c
 
-# NFC
-BOARD_HAVE_NFC := true
-
 #bluetooth
 BOARD_BLUETOOTH_BDROID_BUILDCFG_INCLUDE_DIR := $(LOCAL_PATH)/bluetooth
 
