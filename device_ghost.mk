@@ -41,6 +41,7 @@ PRODUCT_PROPERTY_OVERRIDES += \
 	persist.rmnet.mux=disabled \
 	persist.radio.eons.enabled=1
 
+$(call inherit-product, device/motorola/msm8960dt-common/idc/idc.mk)
 $(call inherit-product, device/motorola/msm8960dt-common/keylayout/keylayout.mk)
 $(call inherit-product, device/motorola/qcom-common/keylayout/keylayout.mk)
 $(call inherit-product, device/motorola/qcom-common/modules/nfc/nfc.mk)
