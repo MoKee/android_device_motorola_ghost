@@ -1,11 +1,23 @@
 [
   {
+    "repository": "android_vendor_motorola_ghost",
+    "target_path": "vendor/motorola/ghost"
+  },
+  {
     "repository": "android_device_motorola_qcom-common",
     "target_path": "device/motorola/qcom-common"
   },
   {
+    "repository": "android_vendor_motorola_qcom-common",
+    "target_path": "vendor/motorola/qcom-common"
+  },
+  {
     "repository": "android_device_motorola_msm8960dt-common",
     "target_path": "device/motorola/msm8960dt-common"
+  },
+  {
+    "repository": "android_vendor_motorola_msm8960dt-common",
+    "target_path": "vendor/motorola/msm8960dt-common"
   },
   {
     "repository": "android_kernel_motorola_msm8960dt-common",
