@@ -144,6 +144,7 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     libnfc \
     libnfc_jni \
+    nfc.msm8960 \
     Nfc \
     Tag \
     com.android.nfc_extras
@@ -227,8 +228,7 @@ PRODUCT_PACKAGES += \
 
 # Wifi
 PRODUCT_PACKAGES += \
-    libQWiFiSoftApCfg \
-    wcnss_service
+    libQWiFiSoftApCfg
 
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/hostapd.accept:system/etc/hostapd/hostapd.accept \
