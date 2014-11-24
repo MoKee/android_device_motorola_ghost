@@ -1,4 +1,4 @@
-# CyanogenMod UseCase
+# MoKee OpenSource UseCase
 SectionUseCase."HiFi" {
 Comment "Music playback use case"
 SectionVerb
@@ -2880,7 +2880,7 @@ SectionDevice
 
 EndSection
 
-# CyanogenMod Modifier
+# MoKee OpenSource Modifier
 SectionModifier
 	Name "Play Music"
 	Comment "Modifier for music playback"

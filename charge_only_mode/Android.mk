@@ -1,4 +1,4 @@
-# Copyright 2014 The CyanogenMod Project
+# Copyright 2014 The MoKee OpenSource Project
 
 LOCAL_PATH := $(call my-dir)
 
