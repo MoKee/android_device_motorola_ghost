@@ -1,12 +1,9 @@
 # Audio
 lpa.decode=true
-media.aac_51_output_enabled=true
 
 persist.audio.fluence.mode=endfire
 persist.audio.handset.mic=digital
 persist.audio.vr.enable=false
-
-qcom.hw.aac.encoder=true
 
 ro.qc.sdk.audio.fluencetype=fluence
 ro.qc.sdk.audio.ssr=false
@@ -70,9 +67,6 @@ ro.modem.no_wdog_chk=1
 ro.telephony.call_ring.multiple=false
 ro.telephony.default_network=10
 ro.use_data_netmgrd=true
-
-# Recovery
-ro.cwm.forbid_format=/fsg,/firmware,/persist,/modem,/boot
 
 # SSR
 persist.sys.qc.sub.rdump.max=20
