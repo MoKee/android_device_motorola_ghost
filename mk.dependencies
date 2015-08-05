@@ -10,5 +10,9 @@
   {
     "repository": "android_kernel_motorola_ghost",
     "target_path": "kernel/motorola/ghost"
+  },
+  {
+    "repository": "android_vendor_motorola_ghost",
+    "target_path": "vendor/motorola/ghost"
   }
 ]
