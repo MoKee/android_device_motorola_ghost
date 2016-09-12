@@ -1,5 +1,9 @@
 [
   {
+    "repository": "android_vendor_motorola_ghost",
+    "target_path": "vendor/motorola/ghost"
+  },
+  {
     "repository": "android_device_motorola_msm8960dt-common",
     "target_path": "device/motorola/msm8960dt-common"
   }
